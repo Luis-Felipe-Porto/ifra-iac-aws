@@ -1,10 +1,10 @@
 package com.myorg;
 
+import software.amazon.awscdk.services.ec2.Vpc;
 import software.constructs.Construct;
 import software.amazon.awscdk.Stack;
 import software.amazon.awscdk.StackProps;
-// import software.amazon.awscdk.Duration;
-// import software.amazon.awscdk.services.sqs.Queue;
+
 
 public class AwsInfraEadStack extends Stack {
     public AwsInfraEadStack(final Construct scope, final String id) {
